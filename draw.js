@@ -87,7 +87,7 @@ var clearing = function(e) {
     while (board.hasChildNodes()) {
 	board.removeChild(board.childNodes[0]);
     }
-    objs.clear();
+    objs = {};
 }
 
 board.addEventListener("click", draw);
